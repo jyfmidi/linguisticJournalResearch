@@ -113,8 +113,9 @@ a:hover {
 	background: #47a3da;
 }
 
-.icon-drop:before, 
-.icon-arrow-left:before {
+.icon-linkedin:before,
+.icon-github:before, 
+.icon-drop:before {
 	font-family: 'fontawesome';
 	position: absolute;
 	top: 0;
@@ -135,11 +136,15 @@ a:hover {
 	color: #fff;
 }
 
-.icon-drop:before {
-	content: "\e000";
+.icon-linkedin:before {
+	content: "\f0e1";
 }
 
-.icon-arrow-left:before {
-	content: "\f060";
+.icon-github:before {
+	content: "\f113";
+}
+
+.icon-drop:before {
+	content: "\f08d";
 }
 
