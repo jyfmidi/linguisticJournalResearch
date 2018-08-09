@@ -91,7 +91,7 @@
 
       // 设置关系图节点标记的大小
       graph.nodes.forEach(function (node) {
-        node.symbolSize = node.value *node.value;
+        node.symbolSize = node.value * 3;
     });
       var option = {
       title: {
@@ -173,8 +173,8 @@
             }
           },
           force: {
-            edgeLength: [120,400],//线的长度，这个距离也会受 repulsion，支持设置成数组表达边长的范围
-            repulsion: 40//节点之间的斥力因子。值越大则斥力越大
+            edgeLength: [120,600],//线的长度，这个距离也会受 repulsion，支持设置成数组表达边长的范围
+            repulsion: 50//节点之间的斥力因子。值越大则斥力越大
           }
         }
       ]
